@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<!--
+Aca abajo empieza la etiqueta ahtml y ttenemos una etiqueta link el cual hace referencia a la hoja de estilos
+css para que la pagina se vea linda.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Estilos.css">
+        <title>Hoja de vida</title>
+    </head>
+    <!--
+     Aca abajo empieza el body  en el albergamos todo el codigo
+    -->
+    <body id="body">
+        <!--
+        A contuacion tenemos  la cabecera y el titulo de la de la pagina , tenemos todo dentro de etiquetas div ya que 
+       es mas organizado y se puede manejar mas el tema de los ID para poder ponerles estilos.
+        -->
+        <div style="text-align: center; font-size: 70px;  ; color: red; background-color: honeydew" >
+            <span style="color: green;">Julian</span> Peñuela <span style="color: orange;">Buitrago</span>.</div>
+
+        <br></br><br></br>
+
+        <!--
+        A contuacion tenemos a continuacion una imagen para insertar una imagen que es la foto de perfil
+        se tiene el atributo float para que la imagen este a un lado y deje pner texto al lado.
+        -->
+        <img  style="float: left;" id="im1" src="img/foto.jpg" >
+        <div style="text-align: center">
+            <p id="datos"></p>
+        </div>
+        <div >
+            <!--
+            A contuacion tenemos un atabla en la cual se ponen los datos de la persona  y usamos td y th para hacer 
+            las divisiones correspondiente.
+            -->
+            <table  class="tabla" id="tabla" border="1px" >
+                <tr>
+                    <td colspan="2" style="text-align: center">DATOS PERSONALES</td>
+                </tr>
+                <tr>
+                    <th style="text-align: center">Nombre</th><td>Julian Alberto Peñuela Buitrago.                                                                                </td>
+                </tr>
+                <tr>
+                    <th style="text-align: center">Documento</th><td>1.015.481.967           </td>
+                </tr>
+                <tr>
+                    <th style="text-align: center">Fecha Nacimiento</th><td>27 de junio de 1999.</td>
+                </tr>
+                <tr>
+                    <th style="text-align: center">Edad</th><td>20 años.</td>
+                </tr>
+                <tr>
+                    <th style="text-align: center">Estado civil</th><td>Union Libre</td>
+                </tr>
+                <tr>
+                    <th style="text-align: center">Celular</th><td>3207403730</td>
+
+                </tr>
+                <tr>
+                    <th style="text-align: center">Correo</th><td>julian0627p@gmail.com</td>
+
+                </tr>
+                <tr>
+                    <th style="text-align: center">GitHUB</th><td><a href="https://github.com/19julian99" > Da click encima para redirigirte a Github</a></td>
+
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center">Redes Sociales</td>
+                </tr>
+
+                <tr>
+
+                    <!--
+                    A contuacion tenemos un div de clase social, en ella tenemos varias etiquetas 
+                    "a" con "href para hacer un abarra social con links las cuales se vinculas a un imagen"
+                    -->
+
+                <div class="social">
+
+                    <td   colspan="2" style="text-align: center"> <a href="https://instagram.com/19_juliaan_99?igshid=e9fx1f86owoy" target="_blank"><img id="iconos" src="img/insta.jpg"  ></a><a href="https://www.facebook.com/julian.penuelab" target="_blank"><img id="iconos" src="img/face.jpg"  ><a href="https://wa.me/573207403730" target="_blank"><img id="iconos" src="img/wha.png"  ></a><a href="https://twitter.com/Julian_Penuela" target="_blank"><img id="iconos" src="img/twit.png"  ></a></td>
+                </div>
+
+                </tr>
+
+            </table>
+        </div>
+        <br></br>
+
+
+        <!--
+                            
+       A continuacion tenemos un div con un id asignago para hacer una casilla que diga perfil
+        -->
+        <div style="color: red"  id="perfil" >
+
+            <p>PERFIL.</p>
+
+        </div>
+        <p> </p>
+        <!--
+        A contuacion  tenemos un div y un parrafo .
+        -->
+        <div style="text-align: center">
+            <p id="perf">Joven ingeniero de sistemas en formación dinámico y habituado al trabajo bajo presión y en equipo , 
+                imaginación e iniciativa para desarrollar ideas nuevas con facilidad para tomar decisiones, ademas posee una gran
+                capacidad de trabajo , integración , flexibilidad y habilidad para enfrentar situaciones de desafió y superación, 
+                buen dominio lector escritor del idioma ingles ademas de tener conocimientos avanzados de ofimática, emprendedor con 
+                iniciativa y capacidad de gestion y organización.</p>
+        </div>
+
+        <div style="text-align: center">
+            <p id="datos"></p>
+        </div>
+
+        <!--
+                            
+       A continuacion tenemos un div con un id asignago para hacer una casilla que diga Estudios
+        -->
+        <p> </p>
+        <div style="color: red"  id="perfil" >
+
+            <p>ESTUDIOS.</p>
+
+        </div>
+
+        <!--
+                           
+        A continuacion  tenemos parrafos con el atributo mark para resaltar ciertas palabras y 
+        dos etiquetas h3 para titulos grandes.
+        -->
+        <div style="color: black"  id="estu" > 
+
+            <h3>BACHILLERATO</h3>
+            <p><mark>*Instituto Militar Antonio Ricaurte (2010-2013)</mark> ---Grados 6; 7; 8 de bachillerato.</p>
+            <p><mark>*Néstor Forero Alcalá I.E.D (2014-2016.)</mark> ---Grados 9; 10; 11 de bachillerato.</p>
+
+            <h3>ESTUDIOS PROFESIONALES</h3>
+            <p><mark>*COORPORACION UNIVERSITARIA MINUTO DE DIOS(2017-Actualmente)</mark> ---Ingeniería De Sistemas---Septimo Semestre </p>
+
+        </div>
+        <!--
+                           
+      A continuacion tenemos de nuevo un div con etiquetas "p" y un texto
+        -->
+        <div style="color: red"  id="perfil" >
+
+            <p>CERTIFICACIONES ACADEMICAS.</p>
+
+        </div>
+
+        <!--
+                           
+      A continuacion  tenemos un div y etiquetas para  realizar una lista de elementos.
+        -->
+        <div style="color: black" id="estu">
+            <OL>
+                <LI>Curso de capacitación de NDG Linux Essentials | Cisco NetAcad
+                <LI>Curso de capacitación de C++ | Solo learn
+                <LI>Curso profesional de Git y GitHub | Platzi-Apps.com
+
+            </OL>
+
+        </div>
+
+        <!--
+                           
+      A continuacion tenemos una tabla para contener imagenes de la seccion de logros academicos
+        cada uno con su etiqueta img e invocando la ruta de la imagen.
+        -->
+        <table border="1px" >
+            <tr>
+
+                <td><img id="im" src="img/cisco.jpg" ></td>
+                <td><img id="im2" src="img/c.jpg"></td>
+                <td><img id="im2" src="img/apps.jpg" ></td>
+
+            </tr>
+
+        </table>
+
+
+        <!--
+                           
+      A continuacion tenemos un div con un id asignago para hacer una casilla que diga experencia
+        -->
+        <div style="color: red"  id="perfil" >
+
+            <p>EXPERIENCIA LABORAL.</p>
+
+        </div>
+
+        <!--
+                           
+      A continuacion tenemos  varios parrafos con un id para editar su estilo y texto.
+        -->
+        <p id="perf">*Joven investigador en formacion participante del proyecto de colciencias y la universidad del Rosario denomidado Alianza EFI con una duracion de un año e intencidad semanal de 40 horas.</p>
+        <p id="perf">*Atencion al cliente y venta de productos para oficina y papeleria en un local comercial ubicado en el barrio Bonanza
+            (Engativa) con una intensidad horaria por turnos de trabajo entre semena y fines de semana de 3 a 7 horas</p>
+        <p id="perf">*Entrega de publicidad visual de la reconocida marca Renault y Colchones Paraiso a travez de la empresa Party Mega Eventos S.A.S los fines de semana del presente año con una intensidad horaria de 6 horas al dia en distintos puntos de la ciudad de bogota.
+
+            PBX:3003281218</p>
+
+
+        <!--
+                           
+      A continuacion tenemos un div con un id asignago para hacer una casilla que diga Referencias
+        -->
+        <div style="color: red"  id="perfil" >
+
+            <p>REFERENCIAS.</p>
+
+        </div>
+
+        <!--
+                          
+     A continuacion tenemos  varios parrafos con un id para editar su estilo y texto.
+        -->
+        <p id="perf">William Alfonso Gonzales Acuña---Contador publico--- 310233737242</p>
+
+        <p id="perf">Martha Isabel Buitrago Rubiano---Licenciada en Educacion Preescolar---3003033082</p>
+        <div style="text-align: center" > <img id="im3" src="img/firma.PNG" draggable="true" ondragstart="drag(event)" width="700" height="300" ></div>
+
+    </div>
+
+</body>
+
+</html>

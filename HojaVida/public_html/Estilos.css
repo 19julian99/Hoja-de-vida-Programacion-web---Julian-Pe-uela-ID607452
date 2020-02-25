@@ -1,0 +1,89 @@
+/*En esta pagina encontramos los estilos de cada uno de los elementos del  html principal , 
+cada uno de ellos tiene un id asosiado que aparece en esta seccion y le otorga atributos de estilo.
+
+
+*Cada descripcion o elementpo de estilos usa la sintaxis de html 
+y no son dificiles de entender de buscar ni entender ya que solo es ingles.
+*/
+
+
+#body{
+    
+    background-color: honeydew;
+     border: #000 5px dashed;
+      height: 5000x;
+      align-content: center;
+      width: 1024px; margin-left: 10%; 
+      
+}
+#iconos{
+    width: 55px; height: 55px;
+}
+
+#im1{
+    
+    
+     transform: rotate(-90deg);
+    
+     width: 352px; height: 252px;
+      border: #000 10px double;
+}
+#im2{
+     
+     width: 350px; height: 250px;
+      border: #000 10px double;
+}
+#im3{
+     
+     
+      border: #000 10px double;
+}
+#im{
+     
+     width: 238px; height: 330px;
+      border: #000 10px double;
+}
+
+
+#cabecera{
+     color: #FF0000; 
+    
+     border: black 10px dashed;
+}
+
+#perfil{
+    text-align: center;
+    border: #000 10px double;
+    font-size:35px
+ 
+     
+}
+#perfil{
+    text-align: center;
+     border: #000 10px double;
+    font-size:35px
+ 
+     
+}
+#perf{
+   padding: 3px 10px;
+  
+    font-size:25px
+}
+
+#estu{
+   padding: 3px 10px;
+  
+  
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+    font-size:25px
+}
+
+#tabla{
+     text-align: left;
+    border: white 8px outset;
+    font-size:25px;
+    background-color: aliceblue;
+    border: 1px solid #000
+}
